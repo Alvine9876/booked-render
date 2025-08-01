@@ -8,7 +8,8 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'your-very-secret-key-please-ch
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['booked-render.onrender.com']
+
 
 
 INSTALLED_APPS = [
