@@ -6,8 +6,12 @@ This is the backend of **Booked**, an online bookstore application inspired by t
 
 ##  Features
 
-
+# Links
+## Group backend link
 https://github.com/corenetabitha/booked-backend
+
+## Group Frontend link
+https://github.com/corenetabitha/project-frontend
 
 
 https://booked-render.onrender.com
