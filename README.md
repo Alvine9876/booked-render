@@ -6,6 +6,10 @@ This is the backend of **Booked**, an online bookstore application inspired by t
 
 ##  Features
 
+
+https://github.com/corenetabitha/booked-backend
+
+
 ### Admin
 
 * Register/login with JWT authentication
