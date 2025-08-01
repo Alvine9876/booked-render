@@ -5,6 +5,7 @@ from rest_framework_simplejwt.views import (
     TokenRefreshView,
     TokenVerifyView,
 )
+from django.http import JsonResponse
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -21,4 +22,19 @@ urlpatterns = [
     
     path('api/', include('mpesa_api.urls')),
 ]
+
+
+
+def root_view(request):
+    return JsonResponse({
+        "message": "Welcome to the Booked API ",
+        "available_endpoints": [
+            "/api/books/",
+            "/api/users/",
+            "/api/orders/",
+            "/api/lendings/",
+            "/api/mpesa/",
+            "/api/token/",
+        ]
+    })
 
